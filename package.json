@@ -1,0 +1,35 @@
+{
+    "author": "robisodd",
+    "dependencies": {
+        "message-queue-pebble": "^1.0.0",
+        "watch_info": "https://builds.cloudpebble.net/d60bd791-95df-415a-94bf-410ce2779c4d/package.tar.gz",
+        "zlib": "https://builds.cloudpebble.net/c76cb0f7-245a-485b-abaf-18953270226a/package.tar.gz"
+    },
+    "keywords": [],
+    "name": "imgur-watchface-v0.5",
+    "pebble": {
+        "displayName": "Imgur Watchface v0.5",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "JIGSAW_INIT",
+            "JIGSAW_PIECE",
+            "JIGSAW_PIECE_INDEX",
+            "MESSAGE",
+            "COMMAND"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "d0c551d4-d72f-43f2-b852-5827d701b63d",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "0.5.0"
+}
